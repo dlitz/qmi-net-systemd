@@ -1,0 +1,18 @@
+Source: qmi-net-systemd
+Section: unknown
+Priority: optional
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/qmi-net-systemd
+#Vcs-Git: https://salsa.debian.org/debian/qmi-net-systemd.git
+
+Package: qmi-net-systemd
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
