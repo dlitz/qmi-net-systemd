@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 30 Sep 2024 16:03:57 MDT
+Source: qmi-net-systemd
+Binary: qmi-net-systemd
+Architecture: source all
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ qmi-net-systemd - Ensures QMI modem network is started
+Checksums-Sha1:
+ 5fcd2067e2fb4e18c874d17d6d183ea9fe2d91b1 1019 qmi-net-systemd_0.0.1.dsc
+ 3ce9aec7a96e36b9a799bea9e8b532625cfaf588 2312 qmi-net-systemd_0.0.1.tar.xz
+ 98a517e3408c9eb3273c5e60dd7accf4002f8f8c 2820 qmi-net-systemd_0.0.1_all.deb
+ 2f75f968f28116f8b1ee0c7a45a3e66ea4f7b554 5358 qmi-net-systemd_0.0.1_amd64.buildinfo
+Checksums-Sha256:
+ a8bfa3f8691d6a67a8a0d9d77bb4d458881f1bfbc6a562be70e04f5b8fcc4d07 1019 qmi-net-systemd_0.0.1.dsc
+ 12be65b954f3072432b60b50624d4bafba9035f35ae773097d3b810605d34fb0 2312 qmi-net-systemd_0.0.1.tar.xz
+ 93b83fab6ea73cf1dcb74608ae4abefc5c2c3c86a326fe7d85fcc3f21935b50d 2820 qmi-net-systemd_0.0.1_all.deb
+ 001f7fa32abed835d7aa1846388e2b38bd0d3aba60aeab032557285bbb488753 5358 qmi-net-systemd_0.0.1_amd64.buildinfo
+Changes:
+ qmi-net-systemd (0.0.1) dlitz-aptly; urgency=medium
+ .
+   * Initial release.
+Files:
+ 875b2acc7a3dca2a797947b79c63c843 1019 net optional qmi-net-systemd_0.0.1.dsc
+ 72be6d14507a77167c9d4d9f8cb0f4e4 2312 net optional qmi-net-systemd_0.0.1.tar.xz
+ 7826ea8fdf9c897ce6fd2070f0df1f40 2820 net optional qmi-net-systemd_0.0.1_all.deb
+ 7199518b7eae97b9ea5faf861347d073 5358 net optional qmi-net-systemd_0.0.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZvsgVRAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkOTQA/R2AGyG+MEegFP75nPt/tf5UY0NhErI18W48
+2GN0/RGiAQC7eZeIil93FR3xpZbMnMBWykz8eO6cXL6kfPtWmmRNCg==
+=vsgy
+-----END PGP SIGNATURE-----
