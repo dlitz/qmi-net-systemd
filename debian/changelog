@@ -1,5 +1,5 @@
-qmi-net-systemd (0.0.0) UNRELEASED; urgency=medium
+qmi-net-systemd (0.0.1) dlitz-aptly; urgency=medium
 
   * Initial release.
 
- -- Darsey Litzenberger <dlitz@dlitz.net>  Mon, 30 Sep 2024 14:24:23 -0600
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Mon, 30 Sep 2024 16:02:11 -0600
