@@ -1,18 +1,23 @@
 Source: qmi-net-systemd
-Section: unknown
+Section: net
 Priority: optional
 Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.7.0
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Browser: https://salsa.debian.org/debian/qmi-net-systemd
-#Vcs-Git: https://salsa.debian.org/debian/qmi-net-systemd.git
+Homepage: https://github.com/dlitz/qmi-net-systemd
+Vcs-Browser: https://github.com/dlitz/qmi-net-systemd
+Vcs-Git: https://github.com/dlitz/qmi-net-systemd.git
 
 Package: qmi-net-systemd
 Architecture: all
 Depends:
+ libqmi-utils,
  ${misc:Depends},
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: Ensures QMI modem network is started
+ This ensures `qmicli --wds-start-network` gets run for modems specified by
+ udev, which can allow systemd-networkd to perform the rest of the
+ configuration without needing modemmanager.
+ .
+ This package also provides qmi-proxy.service

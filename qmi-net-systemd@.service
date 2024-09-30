@@ -1,0 +1,12 @@
+[Unit]
+Requires=qmi-proxy.service
+After=qmi-proxy.service
+StopWhenUnneeded=yes
+
+[Service]
+Environment=NETWORK=3gpp-profile=1
+ExecStart=/usr/bin/qmicli -d /dev/%i -p --wds-start-network=${NETWORK} --wds-follow-network
+Restart=on-failure
+RestartSec=5
+RestartSteps=20
+RestartMaxDelaySec=300

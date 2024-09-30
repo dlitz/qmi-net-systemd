@@ -1,0 +1,5 @@
+ACTION=="add", SUBSYSTEM=="net", ENV{ID_NET_DRIVER}=="qmi_wwan", ENV{QMI_NET_RAWIP}=="1", \
+	ATTR{qmi/raw_ip}="Y", ATTR{qmi/pass_through}="N"
+
+KERNEL=="cdc-wdm*", ENV{QMI_NET_SYSTEMD}=="1", \
+	TAG+="systemd", ENV{SYSTEMD_WANTS}+="qmi-net-systemd@%k.service"
